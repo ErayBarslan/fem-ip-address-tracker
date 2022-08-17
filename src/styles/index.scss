@@ -73,7 +73,8 @@ h1 {
 form {
   margin-top: 29px;
   display: flex;
-  width: min(87vw, 555px);
+  width: 87vw,;
+  max-width: 555px;
 
   input {
     border: none;
@@ -93,6 +94,7 @@ form {
     background: black;
     padding: 0 23px 0 23px;
     border-radius: 0 $borderRadius $borderRadius 0;
+    cursor: pointer;
   }
 
   @include tablet {
@@ -111,7 +113,8 @@ form {
 .info-holder {
   margin-top: 24px;
   background: white;
-  width: min(87vw, 1110px);
+  width: 87vw;
+  max-width: 1110px;
   display: flex;
   flex-direction: column;
   align-items: center;
