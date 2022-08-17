@@ -10,7 +10,8 @@ const Info = ({ info }) => {
       <div>
         <h2>location</h2>
         <p>
-          {info.location && info.location.city}
+          
+          {info.location && `${info.location.city}, ${info.location.region}, ${info.location.country}`}
         </p>
       </div>
       <div>
