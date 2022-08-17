@@ -27,7 +27,7 @@ const SearchForm = ({ setLoading, setInfo, clientIp }) => {
   return (
     <form onSubmit={handleSearch}>
       <input type="text" aria-label="search ip address" value={query} placeholder='Search for any IP address or domain' onChange={(e) => { setQuery(e.target.value) }} />
-      <button aria-label='search'><img src="images/icon-arrow.svg" alt="arrow icon" aria-hidden="true" /></button>
+      <button aria-label='search'><img src="./public/images/icon-arrow.svg" alt="arrow icon" aria-hidden="true" /></button>
     </form>
   )
 }

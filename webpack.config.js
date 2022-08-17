@@ -29,11 +29,15 @@ module.exports = {
       },
       {
         test: /\.png|svg|jpg|gif$/,
-        use: [
-          {
-            loader: "file-loader"
-          }
-        ],
+        use: "file-loader",
+      //   [
+      //     {
+      //         loader: 'file-loader',
+      //         options: {
+      //             name: './public/images/[hash].[ext]',
+      //         },
+      //     },
+      // ],
       }, 
     ],
   },

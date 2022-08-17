@@ -25,7 +25,7 @@ const App = () => {
 
   return (<>
     <div className='img-container' aria-hidden="true">
-      <img src="images/pattern-bg.png" alt="background" className='img-pattern' />
+      <img src="./public/images/pattern-bg.png" alt="background" className='img-pattern' />
     </div>
     {!loading && (<>
       <LocationMap info={info} />
