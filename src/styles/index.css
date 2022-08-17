@@ -113,7 +113,9 @@ form button {
   background: black;
   padding: 0 23px 0 23px;
   border-radius: 0 15px 15px 0;
+  cursor: pointer;
 }
+
 @media (min-width: 900px) {
   form {
     margin-top: 27px;
