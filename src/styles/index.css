@@ -94,7 +94,8 @@ h1 {
 form {
   margin-top: 29px;
   display: flex;
-  width: min(87vw, 555px);
+  width: 87vw;
+  max-width: 555px;
 }
 form input {
   border: none;
@@ -115,7 +116,6 @@ form button {
   border-radius: 0 15px 15px 0;
   cursor: pointer;
 }
-
 @media (min-width: 900px) {
   form {
     margin-top: 27px;
@@ -131,7 +131,8 @@ form button {
 .info-holder {
   margin-top: 24px;
   background: white;
-  width: min(87vw, 1110px);
+  width: 87vw;
+  max-width: 1110px;
   display: flex;
   flex-direction: column;
   align-items: center;
