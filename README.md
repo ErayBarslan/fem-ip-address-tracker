@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/eraybarslan/frontend-ip-address-tracker/](https://github.com/eraybarslan/frontend-ip-address-tracker/)
-- Live Site URL: [https://eraybarslan.github.io/frontend-ip-address-tracker/](https://eraybarslan.github.io/frontend-ip-address-tracker/)
+- Solution URL: [https://github.com/eraybarslan/fem-ip-address-tracker/](https://github.com/eraybarslan/fem-ip-address-tracker/)
+- Live Site URL: [https://eraybarslan.github.io/fem-ip-address-tracker/](https://eraybarslan.github.io/fem-ip-address-tracker/)
 
 ### Screenshots
 
