@@ -6,7 +6,7 @@ const SearchForm = ({ setLoading, setInfo, clientIp }) => {
   const fetchData = async () => {
     try {
       setLoading(true)
-      const response = await fetch(`https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_KlOXL1kEgX0890fQLJJZwsAtgc3xL&ipAddress=${query}`)
+      const response = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=at_I0ypenGHtxiMhqTdZ8MvQai23Iber&ipAddress=${query}`)
       const data = await response.json()
       setInfo(data)
       setLoading(false)
